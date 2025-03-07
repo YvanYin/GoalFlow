@@ -1,2 +1,2 @@
-# GoalFlow-CVPR2025
-End-to-End Driving with Rectified Flow
+# GoalFlow: Goal-Driven Flow Matching for Multimodal Trajectories Generation in End-to-End Autonomous Driving (CVPR 2025)
+
