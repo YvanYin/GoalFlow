@@ -66,110 +66,25 @@ From left to right, they are respectively the distributions of DAC, distance, an
 ## Results
 Planning results on the proposed **NAVSIM** **Test** benchmark. Please refer to the [paper](https://arxiv.org/abs/2503.05689) for more details.
 
-<table border="1" style="width:100%; text-align: center; border-collapse: collapse;">
-    <thead>
-        <tr>
-            <th>Method</th>
-            <th>S<sub>NC</sub> ↑</th>
-            <th>S<sub>DAC</sub> ↑</th>
-            <th>S<sub>TTC</sub> ↑</th>
-            <th>S<sub>CF</sub> ↑</th>
-            <th>S<sub>EP</sub> ↑</th>
-            <th>S<sub>PDM</sub> ↑</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Constant Velocity</td>
-            <td>68.0</td>
-            <td>57.8</td>
-            <td>50.0</td>
-            <td>100</td>
-            <td>19.4</td>
-            <td>20.6</td>
-        </tr>
-        <tr>
-            <td>Ego Status MLP</td>
-            <td>93.0</td>
-            <td>77.3</td>
-            <td>83.6</td>
-            <td>100</td>
-            <td>62.8</td>
-            <td>65.6</td>
-        </tr>
-        <tr>
-            <td>LTF</td>
-            <td>97.4</td>
-            <td>92.8</td>
-            <td>92.4</td>
-            <td>100</td>
-            <td>79.0</td>
-            <td>83.8</td>
-        </tr>
-        <tr>
-            <td>TransFuser</td>
-            <td>97.7</td>
-            <td>92.8</td>
-            <td>92.8</td>
-            <td>100</td>
-            <td>79.2</td>
-            <td>84.0</td>
-        </tr>
-        <tr>
-            <td>UniAD</td>
-            <td>97.8</td>
-            <td>91.9</td>
-            <td>92.9</td>
-            <td>100</td>
-            <td>78.8</td>
-            <td>83.4</td>
-        </tr>
-        <tr>
-            <td>PARA-Drive</td>
-            <td>97.9</td>
-            <td>92.4</td>
-            <td>93.0</td>
-            <td>99.8</td>
-            <td>79.3</td>
-            <td>84.0</td>
-        </tr>
-        <tr style="font-weight: bold;">
-            <td>GoalFlow (Ours)</td>
-            <td>98.4</td>
-            <td>98.3</td>
-            <td>94.6</td>
-            <td>100</td>
-            <td>85.0</td>
-            <td>90.3</td>
-        </tr>
-        <tr style="color: gray;">
-            <td>GoalFlow<sup>†</sup></td>
-            <td>99.8</td>
-            <td>97.9</td>
-            <td>98.6</td>
-            <td>100</td>
-            <td>85.4</td>
-            <td>92.1</td>
-        </tr>
-        <tr style="color: gray;">
-            <td>Human<sup>‡</sup></td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>99.9</td>
-            <td>87.5</td>
-            <td>94.8</td>
-        </tr>
-    </tbody>
-</table>
+| Method           | S<sub>NC</sub> ↑ | S<sub>DAC</sub> ↑ | S<sub>TTC</sub> ↑ | S<sub>CF</sub> ↑ | S<sub>EP</sub> ↑ | S<sub>PDM</sub> ↑ |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| Constant Velocity | 68.0 | 57.8 | 50.0 | 100 | 19.4 | 20.6 |
+| Ego Status MLP   | 93.0 | 77.3 | 83.6 | 100 | 62.8 | 65.6 |
+| LTF             | 97.4 | 92.8 | 92.4 | 100 | 79.0 | 83.8 |
+| TransFuser      | 97.7 | 92.8 | 92.8 | 100 | 79.2 | 84.0 |
+| UniAD          | 97.8 | 91.9 | 92.9 | 100 | 78.8 | 83.4 |
+| PARA-Drive     | 97.9 | 92.4 | 93.0 | 99.8 | 79.3 | 84.0 |
+| **GoalFlow (Ours)** | **98.4** | **98.3** | **94.6** | **100** | **85.0** | **90.3** |
+| *GoalFlow<sup>†</sup>* | *99.8* | *97.9* | *98.6* | *100* | *85.4* | *92.1* |
+| *Human<sup>‡</sup>* | *100* | *100* | *100* | *99.9* | *87.5* | *94.8* |
 
 ## To Do
-- [ ] Code for goal point construction module 
-- [ ] Goal Point scorer and cluster vocabulary cache
-- [ ] Weights of model
-- [ ] Code for validation
-- [ ] Tutorial for installation
-- [√] Initial repo & main paper
+- \[ \] Code for goal point construction module 
+- \[ \] Goal Point scorer and cluster vocabulary cache
+- \[ \] Weights of model
+- \[ \] Code for validation
+- \[ \] Tutorial for installation
+- \[√\] Initial repo & main paper
 
 
 ## Getting started
@@ -179,7 +94,6 @@ The code is building...
 If you have any questions or suggestions, please feel free to open an issue or contact us (xzebin@bupt.edu.cn).
 
 ## Acknowledgement
-<h2>Acknowledgement</h2>
 <p>1. We have gained valuable insights from <a href="https://arxiv.org/abs/2406.06978" target="_blank">Hydra-MDP</a>, which provided many inspiring ideas referenced in our work.</p>
 <p>2. We referred to an excellent GitHub project, <a href="https://github.com/autonomousvision/tuplan_garage" target="_blank">tuplan garage</a>, and incorporated aspects of its page design.</p>
 
