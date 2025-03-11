@@ -95,7 +95,7 @@ From top to down, they are respectively the distributions of DAC, distance, and 
         <td><img src="./assets/visual_goal_point/final_scores/0a44947ca9e85579.png" style="width: 100%; height: auto;"></td>
         <td><img src="./assets/visual_goal_point/final_scores/2a06b778a64b545e.png" style="width: 100%; height: auto;"></td>
         <td><img src="./assets/visual_goal_point/final_scores/7abf60c1594953cf.png" style="width: 100%; height: auto;"></td>
-        <td><img src="./assets/visual_goal_point/im_scores/1db7c81f96855ce9.png" style="width: 100%; height: auto;"></td>
+        <td><img src="./assets/visual_goal_point/final_scores/1db7c81f96855ce9.png" style="width: 100%; height: auto;"></td>
     </tr>
 </table>
 
