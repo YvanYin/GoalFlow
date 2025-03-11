@@ -13,7 +13,7 @@ in End-to-End Autonomous Driving**](https://arxiv.org/abs/2503.05689)  <br>
 > <br>
 > Computer Vision and Pattern Recognition (CVPR), 2025 <br>
 >
-This the official repo of GoalFlow: Goal-Driven Flow Matching for Multimodal Trajectories Generation in End-to-End Autonomous Driving (CVPR 2025). We provide a publicly accessible configuration for validation, model weights and an optimized version for the NavSim testing. (Code is building...)
+This is the official repo of 'GoalFlow: Goal-Driven Flow Matching for Multimodal Trajectories Generation in End-to-End Autonomous Driving (CVPR 2025)'. We provide a publicly accessible configuration for validation, model weights, and an optimized version for the NavSim testing. (Code is building...)
 
 <br/>
 
@@ -136,7 +136,7 @@ If you have any questions or suggestions, please feel free to open an issue or c
 If you find GoalFlow useful, please consider giving us a star &#127775; and citing our paper with the following BibTeX entry.
 
 ```BibTeX
-@misc{xing2025goalflowgoaldrivenflowmatching,
+@misc{xing2025goalflow,
       title={GoalFlow: Goal-Driven Flow Matching for Multimodal Trajectories Generation in End-to-End Autonomous Driving}, 
       author={Zebin Xing and Xingyu Zhang and Yang Hu and Bo Jiang and Tong He and Qian Zhang and Xiaoxiao Long and Wei Yin},
       year={2025},
