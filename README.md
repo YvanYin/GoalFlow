@@ -27,7 +27,7 @@ This the official repo of GoalFlow: Goal-Driven Flow Matching for Multimodal Tra
 - \[ \] Weights of model
 - \[ \] Code for validation
 - \[ \] Tutorial for installation
-- \[√\] Initial repo & main paper
+- \[x] Initial repo & main paper
 
 
 <br/>
