@@ -136,15 +136,11 @@ If you have any questions or suggestions, please feel free to open an issue or c
 If you find GoalFlow useful, please consider giving us a star &#127775; and citing our paper with the following BibTeX entry.
 
 ```BibTeX
-@misc{xing2025goalflow,
-      title={GoalFlow: Goal-Driven Flow Matching for Multimodal Trajectories Generation in End-to-End Autonomous Driving}, 
-      author={Zebin Xing and Xingyu Zhang and Yang Hu and Bo Jiang and Tong He and Qian Zhang and Xiaoxiao Long and Wei Yin},
-      year={2025},
-      eprint={2503.05689},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2503.05689}, 
-}
+@article{xing2025goalflow,
+	  title={GoalFlow: Goal-Driven Flow Matching for Multimodal Trajectories Generation in End-to-End Autonomous Driving},
+	  author={Xing, Zebin and Zhang, Xingyu and Hu, Yang and Jiang, Bo and He, Tong and Zhang, Qian and Long, Xiaoxiao and Yin, Wei},
+	  journal={arXiv preprint arXiv:2503.05689},
+	  year={2025}}
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
