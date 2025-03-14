@@ -1,7 +1,7 @@
 <p align="center">
     <img alt="goalflow_logo" src="assets/goalflow_logo.png" width="500">
     <!-- <h1 align="center">A Framework for Vehicle Motion Planning Research</h1> -->
-    <h3 align="center"><a href="https://arxiv.org/abs/2503.05689">Paper</a> | <a href="#weight">Weight</a> | <a href="">ProjectPage</a> </h3>
+    <h3 align="center"><a href="https://arxiv.org/abs/2503.05689">Paper</a> | <a href="#weight">Weight</a> | <a href="https://zebinx.github.io/GoalFlow/">ProjectPage</a> </h3>
 </p>
 
 <br/>
