@@ -22,11 +22,11 @@ This is the official repo of 'GoalFlow: Goal-Driven Flow Matching for Multimodal
 * **`27 Feb, 2025`:**  GoalFlow was accepted at [CVPR](https://cvpr.thecvf.com/Conferences/2025) !
 
 ## To Do
-- \[ \] Code for goal point construction module 
-- \[ \] Goal Point scorer and cluster vocabulary cache
-- \[ \] Weights of model
-- \[ \] Code for validation
-- \[ \] Tutorial for installation
+- \[×] Code for goal point construction module 
+- \[×] Goal Point scorer and cluster vocabulary cache
+- \[×] Weights of model
+- \[×] Code for validation
+- \[×] Tutorial for installation
 - \[x] Initial repo & main paper
 
 
