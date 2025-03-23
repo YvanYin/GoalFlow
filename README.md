@@ -13,7 +13,7 @@ in End-to-End Autonomous Driving**](https://arxiv.org/abs/2503.05689)  <br>
 > <br>
 > Computer Vision and Pattern Recognition (CVPR), 2025 <br>
 >
-This is the official repo of 'GoalFlow: Goal-Driven Flow Matching for Multimodal Trajectories Generation in End-to-End Autonomous Driving (CVPR 2025)'. GoalFlow achieved PDMS of 90.3, significantly surpassing other baselines. Compared with other diffusion-policy-based methods, our approach requires only a single denoising step to obtain excellent performance. (Code is building...)
+This is the official repo of 'GoalFlow: Goal-Driven Flow Matching for Multimodal Trajectories Generation in End-to-End Autonomous Driving (CVPR 2025)'. GoalFlow achieved PDMS of 90.3, significantly surpassing other baselines. Compared with other diffusion-policy-based methods, our approach requires only a single denoising step to obtain excellent performance.
 
 <br/>
 
@@ -22,11 +22,11 @@ This is the official repo of 'GoalFlow: Goal-Driven Flow Matching for Multimodal
 * **`27 Feb, 2025`:**  GoalFlow was accepted at [CVPR](https://cvpr.thecvf.com/Conferences/2025) !
 
 ## To Do
-- \[×] Code for goal point construction module 
-- \[×] Goal Point scorer and cluster vocabulary cache
-- \[×] Weights of model
-- \[×] Code for validation
-- \[×] Tutorial for installation
+- \[x] Code for goal point construction module 
+- \[x] Goal Point scorer and cluster vocabulary cache
+- \[x] Weights of model
+- \[x] Code for validation
+- \[x] Tutorial for installation
 - \[x] Initial repo & main paper
 
 
