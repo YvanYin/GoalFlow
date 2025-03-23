@@ -1,0 +1,71 @@
+_target_: navsim.agents.goalflow.goalflow_agent_traj.GoalFlowTrajAgent
+_convert_: 'all'
+
+config:
+  _target_: navsim.agents.goalflow.goalflow_config.GoalFlowConfig
+  _convert_: 'all'
+
+  topk: 1
+  generate: 'trajectory'
+  alpha: 3.0
+  fusion: False
+  beta: 0.0
+  cond_threshold: 0.0
+  score_path: null
+  use_nearest: false
+  theta: 3.0
+  cur_sampling: False
+  train_scale: 0.1
+  test_scale: 0.1
+  freeze_perception: false
+  training: true
+  has_navi: false
+  has_student_navi: true
+  start: true
+  infer_steps: 100
+  cond_weight: 1.0
+  ep_score_weight: 0.0
+  ep_point_weight: 0.0
+  anchor_size: 128
+  tf_d_model: 512
+  voc_path: ''
+  only_perception: False
+  v99_pretrained_path: ''
+  agent_loss: True
+
+  trajectory_sampling:
+    _target_: nuplan.planning.simulation.trajectory.trajectory_sampling.TrajectorySampling
+    _convert_: 'all'
+    time_horizon: 5.5
+    interval_length: 0.5
+
+  trajectory_weight: 0.0
+  navi_weight: 0.0
+  agent_class_weight: 10.0
+  agent_box_weight: 1.0
+  bev_semantic_weight: 10.0
+
+  # trajectory_weight: 50.0
+  # mlp_trajectory_weight: 0.0
+  # navi_weight: 0.0
+  # agent_class_weight: 0.2
+  # agent_box_weight: 0.05
+  # bev_semantic_weight: 0.2
+  # drivable_area_weight: 0.2
+  # dac_weight: 0.2
+
+  # trajectory_weight: 50.0
+  # mlp_trajectory_weight: 0.0
+  # navi_weight: 0.0
+  # agent_class_weight: 0.2
+  # agent_box_weight: 0.05
+  # bev_semantic_weight: 0.2
+  # drivable_area_weight: 0.0
+  # dac_weight: 0.0
+
+  # bev_semantic_weight: 10
+  # dac_score_weight: 0.005
+  # im_score_weight: 1.0
+
+checkpoint_path: null
+lr: 1e-4

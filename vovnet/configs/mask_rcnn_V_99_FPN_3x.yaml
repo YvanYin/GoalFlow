@@ -1,0 +1,10 @@
+_BASE_: "Base-RCNN-VoVNet-FPN.yaml"
+MODEL:
+  WEIGHTS: "https://www.dropbox.com/s/1mlv31coewx8trd/vovnet99_ese_detectron2.pth?dl=1"
+  MASK_ON: True
+  VOVNET:
+    CONV_BODY : "V-99-eSE"
+SOLVER:
+  STEPS: (210000, 250000)
+  MAX_ITER: 270000
+OUTPUT_DIR: "checkpoints/MRCN-V2-99-3x"

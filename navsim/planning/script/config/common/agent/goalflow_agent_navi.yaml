@@ -1,0 +1,28 @@
+_target_: navsim.agents.goalflow.goalflow_agent_navi.GoalFlowNaviAgent
+_convert_: 'all'
+
+config:
+  _target_: navsim.agents.goalflow.goalflow_config.GoalFlowConfig
+  _convert_: 'all'
+
+  generate: 'goal_score'
+  freeze_perception: false
+  training: true
+  tf_d_model: 512
+  score_path: null
+  voc_path: ''
+  only_perception: False
+  v99_pretrained_path: ''
+
+  trajectory_sampling:
+    _target_: nuplan.planning.simulation.trajectory.trajectory_sampling.TrajectorySampling
+    _convert_: 'all'
+    time_horizon: 5.5
+    interval_length: 0.5
+
+  bev_semantic_weight: 10
+  dac_score_weight: 0.005
+  im_score_weight: 1.0
+
+checkpoint_path: null
+lr: 1e-4
