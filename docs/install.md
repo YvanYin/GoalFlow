@@ -17,7 +17,7 @@ Make sure that the ``navsim_log_path`` and ``sensor_blobs_path`` in ``default_ev
 
 Firstly, create conda environment with python 3.10 and intall the packages
 ```bash
-conda create --n goalflow python=3.10
+conda create -n goalflow python=3.10
 conda activate goalflow
 pip install -r requirements.txt
 pip install -e nuplan-devkit
